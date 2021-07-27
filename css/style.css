@@ -1,0 +1,7 @@
+/* Bebas Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Global */
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+}
