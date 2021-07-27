@@ -15,7 +15,75 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <h1>Getting Started</h1>
+  <body class="text-gray-700">
+    <!-- Header Area Start Here -->
+    <header id="header-area" class="bg-yellow-50">
+      <div class="container mx-auto px-5">
+        <!-- Navbar Area Start Here -->
+        <nav class="flex justify-between items-center py-5">
+          <!-- Logo -->
+          <a href="index.html">
+            <img src="images/icons/logo.png" alt="Logo" class="w-72" />
+          </a>
+          <!-- Navbar -->
+          <ul class="hidden lg:flex space-x-10">
+            <li><a href="javascript:void(0)">Home</a></li>
+            <li><a href="javascript:void(0)">Product</a></li>
+            <li><a href="javascript:void(0)">About us</a></li>
+            <li><a href="javascript:void(0)">Contact us</a></li>
+          </ul>
+        </nav>
+        <!-- Navbar Area End Here -->
+
+        <!-- Banner Area Start Here -->
+        <section id="banner-area" class="py-10 sm:pb-20">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-10 items-center">
+            <!-- Left Side -->
+            <div>
+              <h1 class="text-5xl sm:text-6xl font-bold font-bebas">
+                <span class="text-yellow-400">Be the Penguins</span>
+                <br />
+                of Winter
+              </h1>
+              <p class="w-96 max-w-full mt-3 mb-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button
+                class="
+                  mt-5
+                  penguin-bg-green
+                  text-white
+                  font-medium
+                  py-3
+                  px-5
+                  rounded-lg
+                  flex
+                  items-center
+                  space-x-2
+                "
+              >
+                <img
+                  src="images/icons/shopping-cart.svg"
+                  alt="Shopping Cart"
+                  class="w-6 h-6"
+                />
+                <span>BUY NOW</span>
+              </button>
+            </div>
+            <!-- Right Side -->
+            <div>
+              <img
+                src="images/model.png"
+                alt="Model"
+                class="mx-auto lg:ml-auto lg:mr-0"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Banner Area End Here -->
+      </div>
+    </header>
+    <!-- Header Area End Here -->
   </body>
 </html>
